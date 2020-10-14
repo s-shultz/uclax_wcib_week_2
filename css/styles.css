@@ -1,5 +1,67 @@
 body {
-  background: url('../images/background.jpg');
-  font-family: sans-serif; }
+  font-family: 'proxima-nova', sans-serif;
+  background-image: url('/images/background.jpg');
+}
+  body h1 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px #000000
+  }
+
+  body h2 {
+    text-align: center;
+    color: #fbe9d2;
+    text-shadow: 2px 2px 2px #000000
+  }
+
+.wrapper {
+  width: 400px;
+  border: 2px solid #fbe9d2;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+  iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0px;
+    border-width: 4px;
+  }
+
   body img {
-    width: 100%; }
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  a {
+    outline: none;
+    text-decoration: underline;
+  }
+
+  a:link {
+    color: white;
+  }
+
+  a:visited {
+    color: grey;
+  }
+
+  a:hover {
+    text-shadow: .5px .5px .5px;
+  }
+
+  header {
+    width: 45%;
+    margin: auto;
+  }
+
+  footer {
+    text-align: center;
+  }
