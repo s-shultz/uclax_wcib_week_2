@@ -15,6 +15,10 @@ body {
     text-shadow: 2px 2px 2px #000000
   }
 
+  body p {
+    margin: auto;
+  }
+
 .wrapper {
   width: 400px;
   border: 2px solid #fbe9d2;
